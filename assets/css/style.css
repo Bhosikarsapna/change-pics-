@@ -1,0 +1,76 @@
+.section{
+    height: 100vh;
+    border: 2px solid black;
+    padding: 30px 20px;
+}
+
+#mainNavbar .navbar-nav .nav-link{
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 20px;
+    margin-bottom: -0.5rem;
+}
+
+a.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#javascript, #nodejs, #angular, #html, #css{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#javascript{
+    background-color: yellow;
+    background-image: url('https://media.istockphoto.com/id/1272412780/photo/paper-width-word-javascript-and-laptop-glasses-and-coffee-on-wooden-table.jpg?s=1024x1024&w=is&k=20&c=DqQRnkeK-lmE78KlTzYNa62PbGceSgzEa0uRVvmZY_Y=');
+   
+}
+
+#nodejs{
+    background-color: hotpink;
+    background-image: url('https://media.istockphoto.com/id/1347542592/photo/node-js-inscription-against-laptop-and-code-background.webp?b=1&s=170667a&w=0&k=20&c=5aAhSVSeVQ-KdN_yzacnv58kKDiHsFJ4TuHyNGoVQyY=');
+}
+#angular{
+    background-color: blue;
+    background-image: url('https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YW5ndWxhciUyMGpzfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60');
+}
+#html{
+    background-color: aqua;
+    background-image: url('https://media.istockphoto.com/id/1391198660/photo/hands-printing-on-laptop-banner.webp?b=1&s=170667a&w=0&k=20&c=Ylf4_JrZHk_Fa5tn_qWimjcPwjMP32w8pY7KbGJKcIc=');
+}
+#css{
+    background-color: red;
+    background-image: url('https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGphdmFzY3JpcHR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60');
+}
+
+i#scrollToTop {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    cursor: pointer;
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    background-color: black;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: all .3s ease-in-out;
+    color: white;
+}
+
+i#scrollToTop.active{
+    transform: scale(1);
+}
+
+.navbar-dark .navbar-brand {
+    color:cyan;
+}
+
+.text-white {
+    color: hotpink !important;
+}
